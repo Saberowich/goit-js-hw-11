@@ -1,5 +1,5 @@
 
- // HTTP request
+
  export default function getPostsByUser(query) {
     const BASE_URL = "https://pixabay.com";
     const END_POINT = '/api/';
