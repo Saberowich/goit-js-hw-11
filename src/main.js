@@ -22,7 +22,7 @@ searchForm.addEventListener('submit', e => {
         });
     }
 
-    loader.style.display = 'block';
+    loader.style.display = 'inline-block';
     getPostsByUser(query)
         .then(data => {
             loader.style.display = 'none';
