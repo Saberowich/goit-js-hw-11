@@ -17,7 +17,7 @@ searchForm.addEventListener('submit', e => {
      if (!query) {
         return iziToast.warning({
             title: 'Warning',
-            message: 'Please enter a search query',
+            message: 'Wpisz zapytanie',
             position: 'topCenter'
         });
     }
@@ -29,7 +29,7 @@ searchForm.addEventListener('submit', e => {
             if (data.hits.length === 0) {
                 iziToast.error({
                     title: 'Error',
-                    message: 'Sorry, there are no images matching your search query. Please try again!',
+                    message: ' Wybacz, nie ma nic na podany temat, sprobuj ponownie',
                     position: 'topCenter'
                 });
             }
